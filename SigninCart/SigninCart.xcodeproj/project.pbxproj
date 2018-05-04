@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08175B2C203FECF900BB3291 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08175B2B203FECF900BB3291 /* Extensions.swift */; };
+		08372F7F203F100F00ECD8F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08372F7E203F100F00ECD8F4 /* AppDelegate.swift */; };
+		08372F81203F100F00ECD8F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08372F80203F100F00ECD8F4 /* ViewController.swift */; };
+		08372F86203F100F00ECD8F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08372F85203F100F00ECD8F4 /* Assets.xcassets */; };
+		08372F89203F100F00ECD8F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08372F87203F100F00ECD8F4 /* LaunchScreen.storyboard */; };
+		08372F94203F100F00ECD8F4 /* SigninCartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08372F93203F100F00ECD8F4 /* SigninCartTests.swift */; };
+		08372F9F203F100F00ECD8F4 /* SigninCartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08372F9E203F100F00ECD8F4 /* SigninCartUITests.swift */; };
+		4EC1C90F3C9A37EBBBDAC774 /* Pods_SigninCartUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B44768AFFB6D1F972AD278 /* Pods_SigninCartUITests.framework */; };
+		58450C5C69792247889D8302 /* Pods_SigninCartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AA79159143D8CA51CD4E81 /* Pods_SigninCartTests.framework */; };
+		C8FA311DBEBB18D28B54123D /* Pods_SigninCart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8449066827BCDC036C7EAEF /* Pods_SigninCart.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08372F90203F100F00ECD8F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08372F73203F100E00ECD8F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08372F7A203F100E00ECD8F4;
+			remoteInfo = SigninCart;
+		};
+		08372F9B203F100F00ECD8F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08372F73203F100E00ECD8F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08372F7A203F100E00ECD8F4;
+			remoteInfo = SigninCart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08175B2B203FECF900BB3291 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		08372F7B203F100E00ECD8F4 /* SigninCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SigninCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08372F7E203F100F00ECD8F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08372F80203F100F00ECD8F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08372F85203F100F00ECD8F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08372F88203F100F00ECD8F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08372F8A203F100F00ECD8F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08372F8F203F100F00ECD8F4 /* SigninCartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SigninCartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08372F93203F100F00ECD8F4 /* SigninCartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninCartTests.swift; sourceTree = "<group>"; };
+		08372F95203F100F00ECD8F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08372F9A203F100F00ECD8F4 /* SigninCartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SigninCartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08372F9E203F100F00ECD8F4 /* SigninCartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninCartUITests.swift; sourceTree = "<group>"; };
+		08372FA0203F100F00ECD8F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33B44768AFFB6D1F972AD278 /* Pods_SigninCartUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SigninCartUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		368E02E49BA1F7498C8A0D39 /* Pods-SigninCartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SigninCartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SigninCartTests/Pods-SigninCartTests.debug.xcconfig"; sourceTree = "<group>"; };
+		49EB9B19D9558386DF0D153E /* Pods-SigninCart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SigninCart.release.xcconfig"; path = "Pods/Target Support Files/Pods-SigninCart/Pods-SigninCart.release.xcconfig"; sourceTree = "<group>"; };
+		5BB06DD1B6112D43ED819399 /* Pods-SigninCart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SigninCart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SigninCart/Pods-SigninCart.debug.xcconfig"; sourceTree = "<group>"; };
+		671EA27FAF63C20DDBC6E57C /* Pods-SigninCartUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SigninCartUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SigninCartUITests/Pods-SigninCartUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7487873BC30FBEA6FABD1A8E /* Pods-SigninCartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SigninCartTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SigninCartTests/Pods-SigninCartTests.release.xcconfig"; sourceTree = "<group>"; };
+		87AA79159143D8CA51CD4E81 /* Pods_SigninCartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SigninCartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8449066827BCDC036C7EAEF /* Pods_SigninCart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SigninCart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D323A2E167DB7298B2CF3012 /* Pods-SigninCartUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SigninCartUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SigninCartUITests/Pods-SigninCartUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08372F78203F100E00ECD8F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FA311DBEBB18D28B54123D /* Pods_SigninCart.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08372F8C203F100F00ECD8F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58450C5C69792247889D8302 /* Pods_SigninCartTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08372F97203F100F00ECD8F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC1C90F3C9A37EBBBDAC774 /* Pods_SigninCartUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08372F72203F100E00ECD8F4 = {
+			isa = PBXGroup;
+			children = (
+				08372F7D203F100E00ECD8F4 /* SigninCart */,
+				08372F92203F100F00ECD8F4 /* SigninCartTests */,
+				08372F9D203F100F00ECD8F4 /* SigninCartUITests */,
+				08372F7C203F100E00ECD8F4 /* Products */,
+				44BBAD2FA8EA35714E467B9F /* Pods */,
+				2D8414F83CAD775E8F9ACCA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		08372F7C203F100E00ECD8F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08372F7B203F100E00ECD8F4 /* SigninCart.app */,
+				08372F8F203F100F00ECD8F4 /* SigninCartTests.xctest */,
+				08372F9A203F100F00ECD8F4 /* SigninCartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08372F7D203F100E00ECD8F4 /* SigninCart */ = {
+			isa = PBXGroup;
+			children = (
+				08372F7E203F100F00ECD8F4 /* AppDelegate.swift */,
+				08372F80203F100F00ECD8F4 /* ViewController.swift */,
+				08175B2B203FECF900BB3291 /* Extensions.swift */,
+				08372F85203F100F00ECD8F4 /* Assets.xcassets */,
+				08372F87203F100F00ECD8F4 /* LaunchScreen.storyboard */,
+				08372F8A203F100F00ECD8F4 /* Info.plist */,
+			);
+			path = SigninCart;
+			sourceTree = "<group>";
+		};
+		08372F92203F100F00ECD8F4 /* SigninCartTests */ = {
+			isa = PBXGroup;
+			children = (
+				08372F93203F100F00ECD8F4 /* SigninCartTests.swift */,
+				08372F95203F100F00ECD8F4 /* Info.plist */,
+			);
+			path = SigninCartTests;
+			sourceTree = "<group>";
+		};
+		08372F9D203F100F00ECD8F4 /* SigninCartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08372F9E203F100F00ECD8F4 /* SigninCartUITests.swift */,
+				08372FA0203F100F00ECD8F4 /* Info.plist */,
+			);
+			path = SigninCartUITests;
+			sourceTree = "<group>";
+		};
+		2D8414F83CAD775E8F9ACCA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8449066827BCDC036C7EAEF /* Pods_SigninCart.framework */,
+				87AA79159143D8CA51CD4E81 /* Pods_SigninCartTests.framework */,
+				33B44768AFFB6D1F972AD278 /* Pods_SigninCartUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44BBAD2FA8EA35714E467B9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BB06DD1B6112D43ED819399 /* Pods-SigninCart.debug.xcconfig */,
+				49EB9B19D9558386DF0D153E /* Pods-SigninCart.release.xcconfig */,
+				368E02E49BA1F7498C8A0D39 /* Pods-SigninCartTests.debug.xcconfig */,
+				7487873BC30FBEA6FABD1A8E /* Pods-SigninCartTests.release.xcconfig */,
+				D323A2E167DB7298B2CF3012 /* Pods-SigninCartUITests.debug.xcconfig */,
+				671EA27FAF63C20DDBC6E57C /* Pods-SigninCartUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08372F7A203F100E00ECD8F4 /* SigninCart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08372FA3203F100F00ECD8F4 /* Build configuration list for PBXNativeTarget "SigninCart" */;
+			buildPhases = (
+				D6CE5BEED719A7FF1547E561 /* [CP] Check Pods Manifest.lock */,
+				08372F77203F100E00ECD8F4 /* Sources */,
+				08372F78203F100E00ECD8F4 /* Frameworks */,
+				08372F79203F100E00ECD8F4 /* Resources */,
+				94146DC3CD7F698CEC5DAE03 /* [CP] Embed Pods Frameworks */,
+				E8E3BEE746BE418A8CD93BAC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SigninCart;
+			productName = SigninCart;
+			productReference = 08372F7B203F100E00ECD8F4 /* SigninCart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08372F8E203F100F00ECD8F4 /* SigninCartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08372FA6203F100F00ECD8F4 /* Build configuration list for PBXNativeTarget "SigninCartTests" */;
+			buildPhases = (
+				FDD0A9ECC02147F9BEF90544 /* [CP] Check Pods Manifest.lock */,
+				08372F8B203F100F00ECD8F4 /* Sources */,
+				08372F8C203F100F00ECD8F4 /* Frameworks */,
+				08372F8D203F100F00ECD8F4 /* Resources */,
+				A2E89F7F70E8BDEAC4C171FB /* [CP] Embed Pods Frameworks */,
+				2642FF1B071F7EBEDB889131 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08372F91203F100F00ECD8F4 /* PBXTargetDependency */,
+			);
+			name = SigninCartTests;
+			productName = SigninCartTests;
+			productReference = 08372F8F203F100F00ECD8F4 /* SigninCartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08372F99203F100F00ECD8F4 /* SigninCartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08372FA9203F100F00ECD8F4 /* Build configuration list for PBXNativeTarget "SigninCartUITests" */;
+			buildPhases = (
+				65EF366103CA120BCCA259C2 /* [CP] Check Pods Manifest.lock */,
+				08372F96203F100F00ECD8F4 /* Sources */,
+				08372F97203F100F00ECD8F4 /* Frameworks */,
+				08372F98203F100F00ECD8F4 /* Resources */,
+				BF281C04951A5EE99C8B8FF0 /* [CP] Embed Pods Frameworks */,
+				B45867BFF11A588956B60D73 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08372F9C203F100F00ECD8F4 /* PBXTargetDependency */,
+			);
+			name = SigninCartUITests;
+			productName = SigninCartUITests;
+			productReference = 08372F9A203F100F00ECD8F4 /* SigninCartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08372F73203F100E00ECD8F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Shyngys;
+				TargetAttributes = {
+					08372F7A203F100E00ECD8F4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					08372F8E203F100F00ECD8F4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 08372F7A203F100E00ECD8F4;
+					};
+					08372F99203F100F00ECD8F4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 08372F7A203F100E00ECD8F4;
+					};
+				};
+			};
+			buildConfigurationList = 08372F76203F100E00ECD8F4 /* Build configuration list for PBXProject "SigninCart" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08372F72203F100E00ECD8F4;
+			productRefGroup = 08372F7C203F100E00ECD8F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08372F7A203F100E00ECD8F4 /* SigninCart */,
+				08372F8E203F100F00ECD8F4 /* SigninCartTests */,
+				08372F99203F100F00ECD8F4 /* SigninCartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08372F79203F100E00ECD8F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08372F89203F100F00ECD8F4 /* LaunchScreen.storyboard in Resources */,
+				08372F86203F100F00ECD8F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08372F8D203F100F00ECD8F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08372F98203F100F00ECD8F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2642FF1B071F7EBEDB889131 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SigninCartTests/Pods-SigninCartTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65EF366103CA120BCCA259C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SigninCartUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94146DC3CD7F698CEC5DAE03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SigninCart/Pods-SigninCart-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SigninCart/Pods-SigninCart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2E89F7F70E8BDEAC4C171FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SigninCartTests/Pods-SigninCartTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B45867BFF11A588956B60D73 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SigninCartUITests/Pods-SigninCartUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF281C04951A5EE99C8B8FF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SigninCartUITests/Pods-SigninCartUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6CE5BEED719A7FF1547E561 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SigninCart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8E3BEE746BE418A8CD93BAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SigninCart/Pods-SigninCart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDD0A9ECC02147F9BEF90544 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SigninCartTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08372F77203F100E00ECD8F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08372F81203F100F00ECD8F4 /* ViewController.swift in Sources */,
+				08175B2C203FECF900BB3291 /* Extensions.swift in Sources */,
+				08372F7F203F100F00ECD8F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08372F8B203F100F00ECD8F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08372F94203F100F00ECD8F4 /* SigninCartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08372F96203F100F00ECD8F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08372F9F203F100F00ECD8F4 /* SigninCartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08372F91203F100F00ECD8F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08372F7A203F100E00ECD8F4 /* SigninCart */;
+			targetProxy = 08372F90203F100F00ECD8F4 /* PBXContainerItemProxy */;
+		};
+		08372F9C203F100F00ECD8F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08372F7A203F100E00ECD8F4 /* SigninCart */;
+			targetProxy = 08372F9B203F100F00ECD8F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08372F87203F100F00ECD8F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08372F88203F100F00ECD8F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08372FA1203F100F00ECD8F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08372FA2203F100F00ECD8F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08372FA4203F100F00ECD8F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BB06DD1B6112D43ED819399 /* Pods-SigninCart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H4GK6PE4RS;
+				INFOPLIST_FILE = SigninCart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = captography;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		08372FA5203F100F00ECD8F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49EB9B19D9558386DF0D153E /* Pods-SigninCart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H4GK6PE4RS;
+				INFOPLIST_FILE = SigninCart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = captography;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		08372FA7203F100F00ECD8F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 368E02E49BA1F7498C8A0D39 /* Pods-SigninCartTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SigninCartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shyngys.SigninCartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SigninCart.app/SigninCart";
+			};
+			name = Debug;
+		};
+		08372FA8203F100F00ECD8F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7487873BC30FBEA6FABD1A8E /* Pods-SigninCartTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SigninCartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shyngys.SigninCartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SigninCart.app/SigninCart";
+			};
+			name = Release;
+		};
+		08372FAA203F100F00ECD8F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D323A2E167DB7298B2CF3012 /* Pods-SigninCartUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SigninCartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shyngys.SigninCartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SigninCart;
+			};
+			name = Debug;
+		};
+		08372FAB203F100F00ECD8F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 671EA27FAF63C20DDBC6E57C /* Pods-SigninCartUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SigninCartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shyngys.SigninCartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SigninCart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08372F76203F100E00ECD8F4 /* Build configuration list for PBXProject "SigninCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08372FA1203F100F00ECD8F4 /* Debug */,
+				08372FA2203F100F00ECD8F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08372FA3203F100F00ECD8F4 /* Build configuration list for PBXNativeTarget "SigninCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08372FA4203F100F00ECD8F4 /* Debug */,
+				08372FA5203F100F00ECD8F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08372FA6203F100F00ECD8F4 /* Build configuration list for PBXNativeTarget "SigninCartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08372FA7203F100F00ECD8F4 /* Debug */,
+				08372FA8203F100F00ECD8F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08372FA9203F100F00ECD8F4 /* Build configuration list for PBXNativeTarget "SigninCartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08372FAA203F100F00ECD8F4 /* Debug */,
+				08372FAB203F100F00ECD8F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08372F73203F100E00ECD8F4 /* Project object */;
+}

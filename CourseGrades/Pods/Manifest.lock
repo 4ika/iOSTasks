@@ -1,0 +1,15 @@
+PODS:
+  - Cartography (3.0.1)
+  - DropDown (2.3.1)
+
+DEPENDENCIES:
+  - Cartography
+  - DropDown
+
+SPEC CHECKSUMS:
+  Cartography: f8c899bb0f5cf20758644a8eea59a75e98a03a5d
+  DropDown: 20499c7b2731b0d21609af924e47c7677a2be50d
+
+PODFILE CHECKSUM: 29532a88ab3440eb37e2acf6a7c79ffd68ab1d35
+
+COCOAPODS: 1.4.0
