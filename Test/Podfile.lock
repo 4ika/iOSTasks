@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (4.6.0)
+  - Cartography (3.0.1)
+  - Kingfisher (4.6.2)
+  - ObjectMapper (3.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Cartography
+  - Kingfisher
+  - ObjectMapper
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Cartography: f8c899bb0f5cf20758644a8eea59a75e98a03a5d
+  Kingfisher: 55b9c395bf8d3949676ad3861111923990ab68cf
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+
+PODFILE CHECKSUM: 2e229ce3ef4e88cce586d2249e44e5c5323e480f
+
+COCOAPODS: 1.4.0
