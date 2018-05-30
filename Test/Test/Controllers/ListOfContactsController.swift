@@ -64,8 +64,8 @@ class ListOfContactsController : UIViewController {
         setupVariables()
         setupConstrains()
         downloadContacts()
-    }
-
+    }    
+    
     func setupBackground() -> Void {
         self.view.backgroundColor = .white
     }

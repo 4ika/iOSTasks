@@ -12,7 +12,7 @@ import Kingfisher
 
 class MoreAboutContactController: UIViewController {
 
-     private let width = UIDevice.current.localizedModel == "iPhone" ? UIScreen.main.bounds.width : 600
+    private var width = UIDevice.current.localizedModel == "iPhone" ? UIScreen.main.bounds.width : 600
     
     var contact : Contact?
     
@@ -60,6 +60,7 @@ class MoreAboutContactController: UIViewController {
         setupViews()
         setupConstrains()
     }
+
     
     func setupBackground() -> Void {
         self.view.backgroundColor = .white
